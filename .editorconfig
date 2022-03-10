@@ -1,0 +1,14 @@
+# 当前IDE按照这个风格去编辑代码
+root = true # 配置在根目录使用
+
+[*] # 表示所有文件使用
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.md]
+max_line_length = off
+trim_trailing_whitespace = false
